@@ -83,6 +83,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div id="language-switcher" style="text-align: right; margin-bottom: 20px;">
+<p><button id="btn-es" onclick="switchLanguage('es')" style="margin-right: 5px;">Español</button> <button id="btn-en" onclick="switchLanguage('en')">English</button></p>
+</div>
+<!-- Contenido en Español -->
+<div id="content-es">
 <div class="quarto-about-trestles">
   <div class="about-entity">
     <img src="images/banner1_UniSSE6.jpg" class="about-image
@@ -143,6 +148,55 @@ ul.task-list li input[type="checkbox"] {
 </div></div>
 </div>
 
+</div>
+<!-- Contenido en Inglés -->
+<div id="content-en" style="display: none;">
+<div id="hero-heading">
+<p>The purpose of UniSSE is to conduct research on the processes that originate, maintain, and structure the biota in its different dimensions (e.g., species richness, abundance, morphological and functional disparity, genetic diversity, geographic distribution) and at different evolutionary scales (e.g., macroevolutionary, biogeographic, and social processes).</p>
+<section id="dr.-karen-lópez" class="level2">
+<h2 data-anchor-id="dr.-karen-lópez">Dr.&nbsp;Karen López</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/916140.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="250"></p>
+</figure>
+</div>
+<p>My general research interest focuses on inferring the mechanisms and evolutionary processes that drive diversification and morphological change in lineages to explain biogeographic, diversification, and morphological patterns at the biota level. I work with different types of non-model organisms (angiosperms, beetles, anostracans, mammals, etc.) using phylogenetic hypotheses reconstructed with genetic, genomic, and morphological data. I have a particular interest in the theory and development of methods underlying the study of morphological evolution, diversification rate estimation, and the development of phylogenetic comparative methods.</p>
+<p><strong>Position:</strong> Associate Researcher C</p>
+<p><strong>Email:</strong> <a href="lokaren21@ib.unam.mx">lokaren21@ib.unam.mx</a></p>
+</section>
+<section id="dr.-cristian-cervantes-1" class="level2">
+<h2 data-anchor-id="dr.-cristian-cervantes-1">Dr.&nbsp;Cristian Cervantes</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/911087.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="250"></p>
+</figure>
+</div>
+<p>During my PhD, I became interested in next-generation molecular techniques and information processing using bioinformatics tools. My doctoral project focused on establishing the taxonomic limits of the <em>Mammillaria haageana</em> complex (Cactaceae) using genomic, morphological, and environmental data. My knowledge of statistics and bioinformatics has given me the opportunity to collaborate on various projects where I have co-authored published articles.</p>
+<div>
+<p><strong>Position:</strong> Associate Academic Technician C</p>
+<p><strong>Email:</strong> <a href="cristian.cervantes@ib.unam.mx">cristian.cervantes@ib.unam.mx</a></p>
+</div>
+</section>
+<section id="publications" class="level2">
+<h2 data-anchor-id="publications">Publications</h2>
+</section>
+<section id="courses" class="level2">
+<h2 data-anchor-id="courses">Courses</h2>
+<p><a href="https://ib-unisse.github.io/patrones_filogeneticos/">Phylogenetic Patterns: Macroevolution and Adaptation</a></p>
+</section>
+</div>
+</div>
+<script>
+  function switchLanguage(lang) {
+    if (lang === 'es') {
+      document.getElementById('content-es').style.display = 'block';
+      document.getElementById('content-en').style.display = 'none';
+    } else if (lang === 'en') {
+      document.getElementById('content-es').style.display = 'none';
+      document.getElementById('content-en').style.display = 'block';
+    }
+  }
+</script>
 
 
 
