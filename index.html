@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/bss-overrides.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
@@ -130,11 +131,36 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <div><img class="img-fluid" width="1024" height="1536" src="assets/img/image%20(1).webp" style="border: 1px solid #2b3916 ;"></div>
-                </div>
-                <div class="col col-xl-6">
-                    <div><img class="img-fluid" width="890" height="1344" src="assets/img/Dissen_1.webp" style="border: 3px solid #2b3916 ;"></div>
+                <div>
+                    <div class="position-relative px-sm-5">
+                        <div class="swiper d-flex flex-column" id="swiper-3" style="width: 1020px;" data-bss-swiper="{&quot;direction&quot;:&quot;horizontal&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;spaceBetween&quot;:20,&quot;breakpoints&quot;:{&quot;768&quot;:{&quot;slidesPerView&quot;:2},&quot;992&quot;:{&quot;slidesPerView&quot;:3}}}">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card border-0 project-item"><img class="object-fit-cover card-img w-100 d-block" src="assets/img/projects/image%20(1).webp" height="500">
+                                        <div class="card-img-overlay text-white mt-0"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0 project-item"><img class="object-fit-cover card-img w-100 d-block" src="assets/img/projects/Dissen_1.webp" height="500">
+                                        <div class="card-img-overlay text-white"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0 project-item"><img class="object-fit-cover card-img w-100 d-block" src="assets/img/projects/DISSEN_2.webp" height="500">
+                                        <div class="card-img-overlay text-white"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-nav-standalone position-absolute d-flex w-100 h-100 justify-content-between align-items-center top-0 start-0" data-bss-swiper-target="#swiper-3">
+                            <div class="swiper-button-prev me-2"><button class="btn btn-primary btn-circle" type="button"><svg class="bi bi-arrow-left-short" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"></path>
+                                    </svg></button></div>
+                            <div class="swiper-button-next"><button class="btn btn-primary btn-circle" type="button"><svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"></path>
+                                    </svg></button></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row mb-5 py-6">
@@ -149,7 +175,7 @@
                     <div class="text-center">
                         <h1 class="display-5 mb-4 heading" style="font-size: 21px;"><strong>🗳️ Votar por los artículos de la semana</strong></h1>
                         <p class="mb-4"></p>
-                        <div class="d-flex flex-column flex-grow-0 align-items-center"><a class="btn btn-primary" role="button" href="https://docs.google.com/forms/d/e/1FAIpQLSctWEyh3A0oAkLeKPNi0l_Cgr2o0PRL9VJbk6s3cB6hJGv5cA/viewform?usp=publish-editor" style="background: #adb44b;">Ir al formulario</a></div>
+                        <div class="d-flex flex-column flex-grow-0 align-items-center"><a class="btn btn-primary" role="button" href="https://docs.google.com/forms/d/1CrdL5inaNyTc1hF4PU8iuxEeiV3k0qEBoCIkrMiHiBA/edit" style="background: #adb44b;">Ir al formulario</a></div>
                     </div>
                 </div>
             </div>
@@ -304,6 +330,8 @@
         </div>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/agency.js"></script>
 </body>
 
