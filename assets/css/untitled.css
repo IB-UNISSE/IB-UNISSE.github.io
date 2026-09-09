@@ -6,3 +6,27 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #01A007;
 }
 
+.poster-slider {
+  width: 100%;
+  height: 380px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.poster-slider {
+  width: 100%;
+  height: 380px;
+  object-fit: contain;
+  object-position: center;
+  background: #f5efe5;
+}
+
+.btn-circle {
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+}
+
